@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bc5ddd9f-e0a2-4a57-98d1-128bedab1377}</ProjectGuid>
-    <RootNamespace>mainIA</RootNamespace>
+    <ProjectGuid>{ecb026c8-35af-455b-9c9d-41abaa6dc773}</ProjectGuid>
+    <RootNamespace>mainIM</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="mainIA.cpp" />
+    <ClCompile Include="mainIM.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="anak.h" />
-    <ClInclude Include="ibu.h" />
+    <ClInclude Include="jantung.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
